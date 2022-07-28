@@ -19,6 +19,8 @@
 		DBE3A7C2289060F500FBED47 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBE3A7BB289060F400FBED47 /* B.wav */; };
 		DBE3A7C3289060F500FBED47 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBE3A7BC289060F500FBED47 /* D.wav */; };
 		DBE3A7C5289061AF00FBED47 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3A7C4289061AF00FBED47 /* SoundManager.swift */; };
+		DBE3A7C72892D64900FBED47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3A7C62892D64900FBED47 /* LaunchScreen.storyboard */; };
+		DBE3A7C92892E0FA00FBED47 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3A7C82892E0FA00FBED47 /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		DBE3A7BB289060F400FBED47 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = ../../../../../../Downloads/B.wav; sourceTree = "<group>"; };
 		DBE3A7BC289060F500FBED47 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = ../../../../../../Downloads/D.wav; sourceTree = "<group>"; };
 		DBE3A7C4289061AF00FBED47 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		DBE3A7C62892D64900FBED47 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE3A7C82892E0FA00FBED47 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		DBE3A79B289034F500FBED47 = {
 			isa = PBXGroup;
 			children = (
+				DBE3A7C82892E0FA00FBED47 /* LaunchView.swift */,
 				DBE3A7C4289061AF00FBED47 /* SoundManager.swift */,
 				DBE3A7A6289034F500FBED47 /* MyXylophone */,
 				DBE3A7A5289034F500FBED47 /* Products */,
@@ -71,6 +76,7 @@
 				DBE3A7A7289034F500FBED47 /* MyXylophoneApp.swift */,
 				DBE3A7A9289034F500FBED47 /* ContentView.swift */,
 				DBE3A7AB289034F700FBED47 /* Assets.xcassets */,
+				DBE3A7C62892D64900FBED47 /* LaunchScreen.storyboard */,
 				DBE3A7AD289034F700FBED47 /* Preview Content */,
 				DBE3A7B5289060C500FBED47 /* Sounds */,
 			);
@@ -160,6 +166,7 @@
 				DBE3A7C3289060F500FBED47 /* D.wav in Resources */,
 				DBE3A7C0289060F500FBED47 /* A.wav in Resources */,
 				DBE3A7C1289060F500FBED47 /* F.wav in Resources */,
+				DBE3A7C72892D64900FBED47 /* LaunchScreen.storyboard in Resources */,
 				DBE3A7BF289060F500FBED47 /* E.wav in Resources */,
 				DBE3A7C2289060F500FBED47 /* B.wav in Resources */,
 				DBE3A7BE289060F500FBED47 /* G.wav in Resources */,
@@ -177,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE3A7AA289034F500FBED47 /* ContentView.swift in Sources */,
+				DBE3A7C92892E0FA00FBED47 /* LaunchView.swift in Sources */,
 				DBE3A7A8289034F500FBED47 /* MyXylophoneApp.swift in Sources */,
 				DBE3A7C5289061AF00FBED47 /* SoundManager.swift in Sources */,
 			);
@@ -313,6 +321,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,6 +351,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
